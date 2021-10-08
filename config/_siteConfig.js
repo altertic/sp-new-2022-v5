@@ -9,8 +9,8 @@ import theCMS from '../cms/netlify/cms'
  * General Site configurations
  */
 export default {
-  siteName: 'Awake',
-  tagline: 'A Nuxt.js Theme for Netlify CMS',
+  siteName: 'Sport & Collection',
+  tagline: '500 Ferrari contre le cancer',
   featureImage: '/uploads/home-hero.jpg',
   logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
@@ -19,30 +19,28 @@ export default {
   },
   mainMenu: [
     {
-      name: 'About',
+      name: 'L\'Association',
       link: '/about'
     },
     {
-      name: 'Contact',
-      link: '/contact'
+      name: 'Public',
+      link: '/public'
     },
     {
-      name: 'Categories',
-      link: '/categories'
+      name: 'Medias',
+      link: '/medias'
     },
     {
-      name: 'Github Repo',
-      link: 'https://github.com/danielkellyio/awake-template',
-      target: '_blank'
+      name: 'Animations',
+      link: '/animations'
     },
     {
-      name: 'Awake+ Premium',
-      link: 'https://awake-premium-lp.netlify.com/',
-      target: '_blank'
-    }
+      name: 'Contacts',
+      link: '/contacts'
+    },
   ],
   hero: {
-    theme: 'dark' // options: mist, light, dark
+    theme: 'mist' // options: mist, light, dark
   },
 
   // Main Layout/Style
@@ -61,20 +59,20 @@ export default {
   disqus: {
     on: true,
     loadingStrategy: 'button', // Options: onload, lazy, button
-    siteShortName: 'blog-danielkelly-io' // 'blog-danielkelly-io'
+    siteShortName: 'sport-et-collection'
   },
 
   // Newsletter Subscribe
   newsletter: {
     on: true,
-    heading: 'Subscribe to Our Newsletter',
-    btnText: 'Subscribe',
+    heading: 'Abonnez-Vous à notre Newsletter',
+    btnText: 'Inscription',
     // Can be the form action on a mail chimp form, a hubspot form,
     // or any other url you want to post the form data to
     mailchimp: {
       on: true,
       formAction:
-        'https://danielkelly.us3.list-manage.com/subscribe/post?u=d3c2e762b66a2353d0bc29bf3&amp;id=2abeaa06e0'
+        'https://sportetcollection.us5.list-manage.com/subscribe/post?u=0729b95252d8e011f213bd17b&amp;id=be2b82f7c5'
     },
     custom: {
       on: false,
