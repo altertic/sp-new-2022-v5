@@ -32,7 +32,7 @@ export default {
     title: { type: String, default: '' },
     subtitle: { type: String, default: '' },
     image: { type: String, default: '' },
-    color: { type: String, default: '#469af0' },
+    color: { type: String, default: '#13235b' },
     theme: { type: String, default: '' }
   },
   computed: {

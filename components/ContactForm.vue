@@ -2,9 +2,9 @@
   <form>
     <!-- Name -->
     <div class="field">
-      <label class="label is-medium">Name</label>
+      <label class="label is-medium">Nom</label>
       <div class="control has-icons-left">
-        <input class="input is-medium" type="text" placeholder="John Smith" />
+        <input class="input is-medium" type="text" placeholder="Pierre Dupont" />
         <span class="icon is-small is-left">
           <font-awesome-icon icon="user" />
         </span>
@@ -26,7 +26,7 @@
     </div>
     <!-- Subject -->
     <div class="field">
-      <label class="label is-medium">Subject</label>
+      <label class="label is-medium">Sujet</label>
       <div class="control has-icons-left">
         <input
           class="input is-medium"
@@ -44,14 +44,14 @@
       <div class="control">
         <textarea
           class="textarea"
-          placeholder="Detailed description of your comment, request, etc"
+          placeholder="Faites-nous part de vos demandes, questions, suggestions..."
           rows="8"
         ></textarea>
       </div>
     </div>
     <div class="control">
       <button class="button is-primary">
-        Contact Us
+        Contactez-Nous
       </button>
     </div>
   </form>
