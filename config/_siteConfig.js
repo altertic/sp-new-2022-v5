@@ -12,7 +12,7 @@ export default {
   siteName: 'Sport & Collection',
   tagline: '500 Ferrari contre le cancer',
   featureImage: '/uploads/28-eme-sport-et-collection-500-ferrari-contre-le-cancer-2-3-4-5-juin-2022.png',
-  logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
+  logo: 'logo.svg', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
     on: true,
     id: process.env.GOOGLE_ANALYTICS_ID
@@ -25,6 +25,10 @@ export default {
     {
       name: 'Public',
       link: '/public'
+    },
+    {
+      name: 'Concurrents',
+      link: '/concurrents'
     },
     {
       name: 'Medias',
@@ -40,7 +44,7 @@ export default {
     },
   ],
   hero: {
-    theme: 'mist' // options: mist, light, dark
+    theme: 'dark' // options: mist, light, dark
   },
 
   // Main Layout/Style
