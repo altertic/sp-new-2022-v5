@@ -1,11 +1,11 @@
 ---
-title: Getting Started
-subtitle: Get Up and Running with Awake
+title: 500 FERRARI CONTRE LE CANCER
+subtitle: Plateaux de Démonstration
 category:
   - About Awake
-author: Daniel Kelly
-date: 2019-08-03T19:59:59.000Z
-featureImage: /uploads/getting-started-hero.jpg
+author: Paul GIRE
+date: 2021-10-27T05:21:15.242Z
+featureImage: /uploads/plateaux-500-ferrari-featured.png
 ---
 Awake is a Nuxt.js template for generating a beautifully robust static site with blog. 
 
