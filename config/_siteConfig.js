@@ -11,7 +11,7 @@ import theCMS from '../cms/netlify/cms'
 export default {
   siteName: 'Sport & Collection',
   tagline: '500 Ferrari contre le cancer',
-  featureImage: '/uploads/28-eme-sport-et-collection-2-3-4-5-juin-2022.png',
+  featureImage: '/uploads/28-eme-sport-et-collection-500-ferrari-contre-le-cancer-2-3-4-5-juin-2022.png',
   logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
     on: true,
