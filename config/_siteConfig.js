@@ -12,7 +12,7 @@ export default {
   siteName: 'Sport & Collection',
   tagline: '500 Ferrari contre le cancer',
   featureImage: '/uploads/28-eme-sport-et-collection-500-ferrari-2022.png',
-  logo: 'logo-sportetcollection-2021-230x50.png', // 'logo-component', // or '/logo.svg' for regular image
+  logo: '/logo-sportetcollection-2021-75x345.png', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
     on: true,
     id: process.env.GOOGLE_ANALYTICS_ID
@@ -97,9 +97,9 @@ export default {
     on: true,
     theme: null, // See card.theme (can be unique for posts if set here)
     imageDimensions: null, // See card.imageDimensions (can be unique for posts if set here)
-    displayAuthor: true,
+    displayAuthor: false,
     date: {
-      display: true
+      display: false
     },
     perRow: 3,
     perPage: 6
