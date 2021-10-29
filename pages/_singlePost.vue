@@ -7,9 +7,9 @@
       >
         <strong>Author:</strong> {{ author }}
       </span>
-      <span v-if="date" class="date-wrapper">
-        <strong>Published on:</strong> {{ date }}
-      </span>
+      // <span v-if="date" class="date-wrapper">
+        // <strong>Published on:</strong> {{ date }}
+      // </span>
     </site-hero>
     <main-section :one-column-constrained="true">
       <template v-slot:default>
