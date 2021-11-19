@@ -1,8 +1,8 @@
 {
-  "name": "nuxtlify",
+  "name": "nutlify",
   "version": "1.0.0",
-  "description": "Blog template for Nuxt.js/Netlify",
-  "author": "Daniel Kelly",
+  "description": "Template for the new version of Sport et Collection official website",
+  "author": "Paul GIRE",
   "license": "MIT",
   "scripts": {
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
