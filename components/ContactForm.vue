@@ -17,7 +17,7 @@
         <input
           class="input is-medium"
           type="email"
-          placeholder="you@email.com"
+          placeholder="votre@email.com"
         />
         <span class="icon is-small is-left">
           <font-awesome-icon icon="envelope" />
@@ -31,7 +31,7 @@
         <input
           class="input is-medium"
           type="text"
-          placeholder="Brief Summary"
+          placeholder="Objet de votre demande"
         />
         <span class="icon is-small is-left">
           <font-awesome-icon icon="briefcase" />
