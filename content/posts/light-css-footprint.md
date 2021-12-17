@@ -1,21 +1,34 @@
 ---
-title: Light CSS Footprint
-subtitle: Purge CSS Bundles Only the Required CSS
+title: Plateaux Historiques
+subtitle: Sport & Collection
 category:
   - About Awake
-author: Daniel Kelly
-date: 2019-07-29T17:30:16.858Z
-featureImage: /uploads/purge-css-hero.jpg
+author: Paul GIRE
+date: 2021-11-25T08:43:07.016Z
+featureImage: /uploads/plateaux-historiques-2022.png
 ---
-Typically the convenience of a CSS framework like Bulma comes at the cost of sending loads of unused css to the browser increasing load times and hindering user experience. So just don't use Bulma (or Bootstrap, Tailwind, or otherwise) right? No, that can't be the answer. These frameworks add to the designer's experience and ability to quickly turn around a finished design. 
-
-Enter [Purge CSS](https://www.purgecss.com/). Purge CSS crawls through your html and css comparing them and removing any unused selectors from your stylesheets at build time so that they can be as slim as possible. So all those useful classes that Bulma has but you just aren't using right now won't slow down your site. And then maybe you decide to use one of them in the future. BOOM, it's there next time you compile with no thought on your part. 
-
-Since Awake is built on the JAM Stack, it can easily take advantage of this technology and so Purge CSS is baked right in. It's that simple. Use Bulma to your hearts content without the bloat.
+## 5 Plateaux de démonstration sont organisés :
 
 
+* Le Mans 1950-1965 : protos et GT des 24H du Mans et des courses d’endurance
+* Le Mans 1966-1985 : protos et GT des 24H du Mans et des courses d’endurance
+* F1, F3000, F2 jusqu'aux années 1990
+* VHC : roadsters et GT jusqu'à 1990
+* Grand Prix Avant-guerre et ancêtres de course d'avant 1914
 
-# Caveats
 
-There are some caveats to Purge CSS especially around dynamically created classes. Since these classes aren't fully fleshed out in the .vue files, Purge CSS doesn't know they exist and therefore will strip out their  corresponding css. The fix is pretty simple though, Purge CSS allows us to whitelist classes that should never be purged whether they are found in the html or not. The whitelisting process is described in full in the [Purge CSS docs](https://www.purgecss.com/whitelisting). You can set the `whitelist` option as well as any other purge css option in `config/build.js`.
-Sometimes when dev mode and adding markup that uses classes that have not previously been in use, you must restart dev mode for Purge CSS to pick up on the change. 
+
+Possibilité de box ou de tentes, de participer à la nocturne du vendredi soir pour les Le Mans et VHC.
+
+Important : départ Le Mans pour le plateau Le Mans 1950-1965 le samedi à 16h.
+
+
+
+## En 2022 : 2 plateaux de course sont organisés 
+
+L'**Historic Grand Prix Cars Association de Londres** se joindra, en 2022, à Sport & Collection, pour organiser 2 autres plateaux à raison de 2 courses par plateau, samedi et dimanche (qualifications le vendredi après-midi) :
+
+
+
+* Grand Prix moteur avant pré 1961, l'époque Juan Manuel Fangio
+* F1 moteur central pré 1966, l'époque Jim Clark
